@@ -681,6 +681,7 @@ expanded.")
     (define-key map "\C-c&\C-s" 'yas-insert-snippet)
     (define-key map "\C-c&\C-n" 'yas-new-snippet)
     (define-key map "\C-c&\C-v" 'yas-visit-snippet-file)
+    (define-key map "\C-c&\C-d" 'yas-describe-tables)
     map)
   "The keymap used when `yas-minor-mode' is active.")
 
